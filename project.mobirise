@@ -1,0 +1,936 @@
+{
+  "settings": {
+    "name": "숨가게",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#efefef",
+        "successColor": "#71ac35",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#8fa975",
+        "#7e9b62",
+        "#71ac35",
+        "#f7f7f7",
+        "#f1f1f1",
+        "#2c1f1f"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.1",
+    "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "uniqCompNum": 23,
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#7c706b"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#7c706b"
+            },
+            ".link, .dropdown-item": {
+              "color": "#7c706b"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#7c706b",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "A": {
+              "font-size": "13px"
+            },
+            "SPAN": {
+              "font-size": "13px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#7c706b",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span>숨가게는?</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">숨가게 소개</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\" aria-expanded=\"false\">이용안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\" aria-expanded=\"false\">사회취약층배려제도</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>숨포인트 쌓기</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span>진행중인 이벤트</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>공지사항</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>고객센터</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html\">숨가게 MALL</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-logo-269x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1205.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "숨가게 소개",
+          "text": "<p>숨가게는 당신의 선행에 보답합니다.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "tabs": "4",
+            "imageSize": "48",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extTabs2_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.2
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x989.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=-9QlmUYkFXc",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH FORM",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND</a>",
+          "title1": "느리지만 더불어 사는 삶",
+          "title2": "각종 사회 공익 활동에 포인트를 부여",
+          "title3": "기업과 이웃, 상생의 징검다리\n",
+          "title4": "각종 생활용품, 문화 상품",
+          "title5": "Tab heading 5",
+          "title6": "Tab heading 6",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs2-3\" aria-expanded=\"false\">더불어 사는 삶</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs2-3\" aria-expanded=\"false\">공익활동</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs2-3\" aria-expanded=\"false\">상생</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs2-3\" aria-expanded=\"true\">다양한 상품</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs2-3\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs2-3\">Beautiful</a></li>",
+          "text1": "‘숨가게는 ‘Slow, Steady and Together’라는 모토로 눈앞의 이익보다는 ‘느리지만 더불어 사는 삶’을 꿈꿉니다. <br>&nbsp;&nbsp;",
+          "text2": "숨가게는 기부/헌혈과 같은 사회 공익적 활동을 한 사람들에게 일종의 사회공익 마일리지인 ‘숨 포인트’를 부여하고, &nbsp;사이트 내의 다양한 물품들을 구매하게 하여 개인들의 사회 공익적 활동을 널리 홍보하고 장려할 것입니다.",
+          "text3": "숨가게는 중소기업들의 좋은 제품을 필요한 어려운 우리 이웃들에게 연결하여 기부할 수 있도록 하여 기업의 사회참여를 높이고, 중소기업들의 좋은 제품은 우리 이웃들을 통해 널리 홍보될 수 있도록 노력할 것입니다.",
+          "text4": "숨가게에서는  ‘숨포인트’를 이용하여 화장품을 비롯한 각종 생활용품부터 전시회 및 공연 티켓 등 각종 문화 상품들까지 다양하게 구매할 수 있습니다.<br>&nbsp;&nbsp;",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTabs2",
+          "_anchor": "extTabs2-3"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle SPAN": {
+              "font-size": "12px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Gallery",
+          "meta": "<span style=\"font-style: normal;\">*숨가게의 사회공익적 취지에 공감하여 적극적으로 협력해주신 김민정 화가의 작품을 소개합니다.<br></span>\n<br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-l"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "2",
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/-45.5x33.4cm-2008-1500x1083.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/45.5x33.4cm-2008-1500x1083-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/-73x53cm-2010-900x646.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/73x53cm-2010-900x646-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/-10p53cm-x-41cm-2012-1500x1149.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/10p53cm-x-41cm-2012-1500x1149-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/-25p80.3cm-x-61cm-2011-1500x1111.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/25p80.3cm-x-61cm-2011-1500x1111-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery2",
+          "_anchor": "gallery2-k"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "오시는 길",
+          "meta": "<span style=\"font-style: normal;\">경기도 안양시 동안구 학의로 282, 금강펜테리움IT타워 B동 (22층) 2222~3호</span>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-m"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "경기도 안양시 동안구 학의로 282",
+              "placeId": "ChIJdxeYyjteezURlmWJBo2ecM0",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": "1",
+            "paddingBottom": 4,
+            "bgColor": "#fff"
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-j"
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\">Contact us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-logo-265x126.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Categories",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "070-4452-1406 ",
+          "text3": "1234 Street Name, City AA 99999",
+          "text4": "<a href=\"mailto:support@mobirise.com\">soomgage@naver.com</a>",
+          "text6": "<strong>Contacts</strong><br>Email: soomgage@naver.com<br>Phone: 070-4452-1406<br>Fax:  031-381-6711 <br><br><br><strong>Address</strong><br>경기도 안양시 동안구 학의로 282, 금강펜테리움IT타워 B동 (22층) 2222~3호 <br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "whitecns@naver.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_name": "contacts5",
+          "_anchor": "contacts5-4"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Page 1",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#7c706b"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#7c706b"
+            },
+            ".link, .dropdown-item": {
+              "color": "#7c706b"
+            },
+            ".link": {
+              "font-size": "0.85rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.921rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#7c706b",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "A": {
+              "font-size": "13px"
+            },
+            "SPAN": {
+              "font-size": "13px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.85",
+            "fontName": {},
+            "fontColor": "#7c706b",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\"><span class=\"mbri-mobirise mbr-iconfont mbr-iconfont-btn\"></span>숨가게는?</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\">숨가게 소개</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\" aria-expanded=\"false\">이용안내</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html\" aria-expanded=\"false\">사회취약층배려제도</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>숨포인트 쌓기</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\"></span>진행중인 이벤트</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>공지사항</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>고객센터</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger-outline btn-danger\" href=\"index.html\">숨가게 MALL</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/-logo-269x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-c"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1205.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.4"
+          },
+          "title": "숨가게 소개",
+          "text": "<p>숨가게는 당신의 선행에 보답합니다.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-d"
+        },
+        {
+          "_inherit": "features1",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "desktop",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "mobile",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "pencil",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features2",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "columnsColor": "#2e2e2e",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_name": "features2",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            }
+          },
+          "_anchor": "features2-e"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "tabs": "4",
+            "imageSize": "45",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extTabs2_bg.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f7f7f7",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.2
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@-blocks/components/_images/img_extTabs2.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH FORM",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND</a>",
+          "title1": "느리지만 더불어 사는 삶",
+          "title2": "각종 사회 공익 활동에 포인트를 부여",
+          "title3": "기업과 이웃, 상생의 징검다리\n",
+          "title4": "각종 생활용품, 문화 상품",
+          "title5": "Tab heading 5",
+          "title6": "Tab heading 6",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1extTabs2-3\" aria-expanded=\"false\">더불어 사는 삶</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2extTabs2-3\" aria-expanded=\"false\">공익활동</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3extTabs2-3\" aria-expanded=\"false\">상생</a></li><li class=\"nav-item\" style=\"display: inline-block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4extTabs2-3\" aria-expanded=\"true\">다양한 상품</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5extTabs2-3\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6extTabs2-3\">Beautiful</a></li>",
+          "text1": "‘숨가게는 ‘Slow, Steady and Together’라는 모토로 눈앞의 이익보다는 ‘느리지만 더불어 사는 삶’을 꿈꿉니다. ",
+          "text2": "숨가게는 기부/헌혈과 같은 사회 공익적 활동을 한 사람들에게 일종의 사회공익 마일리지인 ‘숨 포인트’를 부여하고,  ‘숨가게’ 사이트 내의 다양한 물품들을 구매하게 하여 개인들의 사회 공익적 활동을 널리 홍보하고 장려할 것입니다.",
+          "text3": "숨가게는 중소기업들의 좋은 제품을 필요한 어려운 우리 이웃들에게 연결하여 기부할 수 있도록 하여 기업의 사회참여를 높이고, 중소기업들의 좋은 제품은 우리 이웃들을 통해 널리 홍보될 수 있도록 노력할 것입니다.",
+          "text4": "숨가게에서는  ‘숨포인트’를 이용하여 화장품을 비롯한 각종 생활용품부터 전시회 및 공연 티켓 등 각종 문화 상품들까지 다양하게 구매할 수 있습니다.",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTabs2",
+          "_anchor": "extTabs2-f"
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text5": "<li><a class=\"text-primary\" href=\"#\">Business</a></li><li><a class=\"text-primary\" href=\"#\">Design</a></li><li><a class=\"text-primary\" href=\"#\">Real life</a></li><li><a class=\"text-primary\" href=\"#\">Science</a></li><li><a class=\"text-primary\" href=\"#\">Tech</a></li>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\">Contact us</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/-logo-265x126.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Categories",
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "text2": "070-4452-1406 ",
+          "text3": "1234 Street Name, City AA 99999",
+          "text4": "<a href=\"mailto:support@mobirise.com\">soomgage@naver.com</a>",
+          "text6": "<strong>Contacts</strong><br>Email: soomgage@naver.com<br>Phone: 070-4452-1406<br>Fax:  031-381-6711 <br><br><br><strong>Address</strong><br>경기도 안양시 동안구 학의로 282, 금강펜테리움IT타워 B동 (22층) 2222~3호 <br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "whitecns@naver.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_name": "contacts5",
+          "_anchor": "contacts5-g"
+        }
+      ]
+    }
+  }
+}
